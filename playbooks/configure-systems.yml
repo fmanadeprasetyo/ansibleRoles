@@ -6,7 +6,7 @@
   tasks:
 
 - name: Call Roles
-  hosts: servers
+  hosts: 192.168.0.111
   roles:
    #- hostname
    #- firewalld
