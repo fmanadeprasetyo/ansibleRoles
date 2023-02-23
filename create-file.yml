@@ -6,4 +6,4 @@
       file:
         path: /home/osboxes/awx/blog.txt
         state: touch
-        group: sam
+        group: root
