@@ -1,0 +1,9 @@
+---
+- hosts: target1
+  become: true
+  tasks:
+    - name: Creating blog.txt file
+      file:
+        path: /home/osboxes/awx/blog.txt
+        state: touch
+        group: sam
